@@ -1,0 +1,14 @@
+#grid-container {
+    /* Add your CSS here */
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 10px;
+}

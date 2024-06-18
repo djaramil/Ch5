@@ -1,0 +1,16 @@
+.title {
+    color: green;
+}
+
+#grid-container {
+    display: grid;
+    /*grid-template-columns: auto auto auto auto;*/
+    grid-template-rows: 2/4;
+}
+
+#grid-container > div {
+    text-align: center;
+    background: lightgreen;
+    border: 3px solid green;
+    padding: 20px;
+}

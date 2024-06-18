@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Grid Template Rows Example</title>
+        <style>
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-template-rows: 100px auto 1fr;
+                gap: 10px; /* Adds space between rows */
+                border: 2px solid black;
+            }
+            .grid-item {
+                background-color: lightblue;
+                border: 1px solid darkblue;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="grid-item">Row 1 (100px)</div>
+            <div class="grid-item">Row 1 (100px)</div>
+            <div class="grid-item">Row 2 (auto)</div>
+            <div class="grid-item">Row 2 (auto)</div>
+            <div class="grid-item">Row 3 (1fr)</div>
+            <div class="grid-item">Row 3 (1fr)</div>
+        </div>
+    </body>
+</html>
